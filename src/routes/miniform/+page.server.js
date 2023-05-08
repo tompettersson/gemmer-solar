@@ -2,9 +2,9 @@ import nodemailer from 'nodemailer';
 const transporter = nodemailer.createTransport({
   service: 'Actualize',
   host: "s1.actualizeserver.de",
-  secureConnection: false,
+  secureConnection: true,
   port: 465,
-  secure: false,
+  secure: true,
   auth: {
     user: 'thomas.pettersson@actualize.de',
     pass: 'emailPETAsson1802'
