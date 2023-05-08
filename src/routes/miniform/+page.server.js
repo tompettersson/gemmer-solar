@@ -4,7 +4,7 @@ const transporter = nodemailer.createTransport({
   host: "s1.actualizeserver.de",
   secureConnection: false,
   port: 465,
-  secure: true,
+  secure: false,
   auth: {
     user: 'thomas.pettersson@actualize.de',
     pass: 'emailPETAsson1802'
