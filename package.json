@@ -26,6 +26,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"nodemailer": "^6.9.1"
+		"nodemailer": "^6.9.1",
+		"postmark": "^3.0.18",
+		"vercel": "^29.1.1"
 	}
 }
