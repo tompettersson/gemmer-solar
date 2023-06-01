@@ -22,7 +22,7 @@
 		class="bg-whiteflex mx-auto max-w-screen-2xl flex-1 flex-col-reverse items-center justify-between px-6 pb-2 sm:px-12 md:flex-row lg:px-8"
 	>
 		<p class="max-w-3xl py-5 pl-12 pt-12 text-sm leading-6" data-scroll data-scroll-speed="1.2">
-			Gemmer-Solar UG (haftungsbeschränkt)<br />
+			Gemmer-Solar GmbH<br />
 			Ortsstraße 13<br />
 			D-56379 Scheidt<br /><br />
 

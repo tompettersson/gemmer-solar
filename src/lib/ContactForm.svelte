@@ -14,7 +14,7 @@
 						<div>
 							<dt class="sr-only">Adresse</dt>
 							<dd>
-								<p>Gemmer-Solar UG (haftungsbeschränkt)</p>
+								<p>Gemmer-Solar GmbH</p>
 								<p>
 									Ortsstraße 13<br />
 									D-56379 Scheidt

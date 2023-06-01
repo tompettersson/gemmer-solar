@@ -26,12 +26,12 @@
 
 		<!---- RIGHT ----->
 		<div
-			class="relative w-auto py-0 pl-0 pr-0 md:w-1/2 md:py-10 md:pl-10 md:pr-8"
+			class="relative w-auto py-0 pl-0 pr-0 md:w-1/2 md:py-0 md:pl-0 md:pr-0"
 			data-scroll-section
 		>
 			<img
 				src="./img/abschluss-versprechen-badge.svg"
-				class="absolute right-[-33px] top-[66px] z-20 max-h-40 md:bottom-2"
+				class="absolute right-[-103px] top-[36px] z-20 max-h-40 md:bottom-2"
 				alt=""
 				data-scroll
 				data-scroll-speed="2"
@@ -46,7 +46,7 @@
 			/>
 			<img
 				src="./img/sonne.svg"
-				class="absolute bottom-[-30px] left-[-3%] z-0 max-h-40 md:bottom-2"
+				class="absolute bottom-[-30px] left-[-10%] z-0 max-h-40"
 				alt=""
 				data-scroll
 				data-scroll-speed="2"

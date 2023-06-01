@@ -35,7 +35,7 @@
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">1. Ihr Vertragspartner:</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Gemmer-Solar UG (haftungsbeschr&auml;nkt), Ortsstra&szlig;e 13, 56379 Scheidt, Eingetragen im
+			Gemmer-Solar GmbH, Ortsstra&szlig;e 13, 56379 Scheidt, Eingetragen im
 			Handelsregister beim AG Montabaur unter HRB 28559, nachfolgend kurz &bdquo;Gemmer-Solar&ldquo;
 			genannt.
 		</p>
@@ -536,7 +536,7 @@
 			Um Ihr Widerrufsrecht auszu&uuml;ben, m&uuml;ssen Sie unter:
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Gemmer-Solar UG (haftungsbeschr&auml;nkt)
+			Gemmer-Solar GmbH
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">Ortsstra&szlig;e 13</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">56379 Scheidt</p>
@@ -571,7 +571,7 @@
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
 			Sie haben die Waren unverz&uuml;glich und in jedem Fall sp&auml;testens binnen vierzehn Tagen
 			ab dem Tag, an dem Sie uns &uuml;ber den Widerruf dieses Vertrags unterrichten, an uns
-			(Gemmer-Solar UG (haftungsbeschr&auml;nkt), Ortsstra&szlig;e 13, 56379 Scheidt)&nbsp;
+			(Gemmer-Solar GmbH, Ortsstra&szlig;e 13, 56379 Scheidt)&nbsp;
 			zur&uuml;ckzusenden oder zu &uuml;bergeben. Die Frist ist gewahrt, wenn Sie die Waren vor
 			Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der
 			R&uuml;cksendung der Waren.&nbsp;
