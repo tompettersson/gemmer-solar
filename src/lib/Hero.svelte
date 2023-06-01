@@ -31,7 +31,7 @@
 		>
 			<img
 				src="./img/abschluss-versprechen-badge.svg"
-				class="absolute right-[-103px] top-[36px] z-20 max-h-40 md:bottom-2"
+				class="absolute right-[-103px] top-[36px] z-20 max-h-40 md:bottom-2 hidden md:block"
 				alt=""
 				data-scroll
 				data-scroll-speed="2"
