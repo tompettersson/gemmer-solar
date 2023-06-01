@@ -37,7 +37,7 @@
 				data-scroll-speed="2"
 			/>
 			<img
-				src="./img/solar-01.jpg"
+				src="./img/gemmerteam.jpg"
 				class="relative z-10 rounded-md"
 				alt=""
 				data-scroll

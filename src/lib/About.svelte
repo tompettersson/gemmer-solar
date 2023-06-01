@@ -9,7 +9,18 @@
 			data-scroll
 			data-scroll-speed="1"
 		>
-			<div class="w-auto py-8 pr-4 sm:w-1/2 lg:w-2/3 lg:pr-60">
+
+			<div class="w-auto py-5 pl-0 sm:w-1/2 lg:w-1/3 ">
+				<img
+						src="./img/gemmercar.jpg"
+						class="relative z-10 rounded-md"
+						alt=""
+						data-scroll
+						data-scroll-speed="2"
+						data-scroll-direction="horizontal"
+				/>
+			</div>
+			<div class="w-auto py-8 pr-4 sm:w-1/2 lg:w-2/3 lg:pl-16 lg:pr-60">
 				<h3
 					class="mt-15 block text-4xl font-extrabold text-zinc-900"
 					data-scroll
@@ -35,16 +46,7 @@
 				>
 			</div>
 
-			<div class="w-auto py-5 pl-0 sm:w-1/2 lg:w-1/3 lg:pl-10">
-				<img
-					src="./img/gemmer-auto.jpg"
-					class="relative z-10 rounded-md"
-					alt=""
-					data-scroll
-					data-scroll-speed="2"
-					data-scroll-direction="horizontal"
-				/>
-			</div>
+
 		</div>
 	</div>
 </section>
