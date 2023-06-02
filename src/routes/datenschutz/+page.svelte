@@ -27,7 +27,7 @@
 
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
 			Der Schutz Ihrer pers&ouml;nlichen Daten ist uns ein besonderes Anliegen. Wir, die
-			Gemmer-Solar UG verarbeiten Ihre personenbezogenen Daten (kurz &bdquo;Daten&ldquo;) daher
+			Gemmer-Solar GmbH verarbeiten Ihre personenbezogenen Daten (kurz &bdquo;Daten&ldquo;) daher
 			ausschlie&szlig;lich auf Grundlage der gesetzlichen Bestimmungen. Mit der
 			Datenschutzerkl&auml;rung wollen wir Sie &uuml;ber die Verarbeitung Ihrer Daten in unserem
 			Unternehmen und die Ihnen zustehenden datenschutzrechtlichen Anspr&uuml;che und Rechte

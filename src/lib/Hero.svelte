@@ -6,7 +6,7 @@
 		<!---- LEFT ----->
 		<div class="w-auto pl-7 md:w-1/2 md:pl-12" data-scroll-section>
 			<h2
-				class="max-w-lg pb-6 pr-12 pt-6 text-4xl font-extrabold text-white md:pt-2 lg:text-6xl"
+				class="max-w-lg pb-6 pr-12 pt-12 text-4xl font-extrabold text-white md:pt-2 lg:text-6xl"
 				data-scroll
 				data-scroll-speed="1.2"
 			>
@@ -31,7 +31,7 @@
 		>
 			<img
 				src="./img/abschluss-versprechen-badge.svg"
-				class="absolute right-[-103px] top-[36px] z-20 max-h-40 md:bottom-2 hidden md:block"
+				class="absolute bottom-[40px] left-[-10%] z-20 max-h-36 hidden lg:block"
 				alt=""
 				data-scroll
 				data-scroll-speed="2"
@@ -44,13 +44,13 @@
 				data-scroll-speed="1"
 				data-scroll-direction="horizontal"
 			/>
-			<img
+			<!--<img
 				src="./img/sonne.svg"
 				class="absolute bottom-[-30px] left-[-10%] z-0 max-h-40"
 				alt=""
 				data-scroll
 				data-scroll-speed="2"
-			/>
+			/>-->
 		</div>
 	</div>
 </section>
