@@ -41,11 +41,11 @@
 			>
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Verantwortlich ist die Gemmer-Solar UG, Ortsstra&szlig;e 13, 56379 Scheidt, E-Mail:
+			Verantwortlich ist die Gemmer-Solar GmbH , Ortsstra&szlig;e 13, 56379 Scheidt, E-Mail:
 			info(at)gemmer-solar.de, Tel: +496439-9295983.
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Der Datenschutzbeauftragte der Gemmer-Solar UG ist unter der genannten Anschrift oder per
+			Der Datenschutzbeauftragte der Gemmer-Solar GmbH  ist unter der genannten Anschrift oder per
 			E-Mail unter info(at)gemmer-solar.de zu erreichen.
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">&nbsp;</p>
@@ -90,7 +90,7 @@
 			Dokumentationsdaten (z.B. Beratungsprotokolle), Bilddaten,
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Informationen aus Ihrem elektronischen Verkehr mit der Gemmer-Solar UG (z.B. IP-Adresse,
+			Informationen aus Ihrem elektronischen Verkehr mit der Gemmer-Solar GmbH  (z.B. IP-Adresse,
 			Log-in-Daten),&nbsp;
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
@@ -194,13 +194,13 @@
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
 			Der Verwendung Ihrer personenbezogenen Daten f&uuml;r Werbezwecke k&ouml;nnen Sie jederzeit
-			insgesamt oder f&uuml;r einzelne Ma&szlig;nahmen widersprechen. Seitens Gemmer-Solar UG ist
+			insgesamt oder f&uuml;r einzelne Ma&szlig;nahmen widersprechen. Seitens Gemmer-Solar GmbH  ist
 			dieser Widerspruch f&uuml;r Sie kostenlos. Wenden Sie sich hierzu bitte an den unter Nr. 1
 			genannten Kontakt. &nbsp;
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">Produktempfehlungen per E-Mail</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Die Gemmer-Solar UG ist unter den gesetzlichen Voraussetzungen des &sect; 7 Abs 3 UWG
+			Die Gemmer-Solar GmbH  ist unter den gesetzlichen Voraussetzungen des &sect; 7 Abs 3 UWG
 			berechtigt, die E-Mail-Adresse, die Sie uns bei der Bestellung eines Produktes oder einer
 			Dienstleistung angegeben haben, zur Direktwerbung f&uuml;r eigene &auml;hnliche Waren oder
 			Dienstleistungen zu nutzen. Diese Produktempfehlungen erhalten Sie von uns unabh&auml;ngig
@@ -237,14 +237,14 @@
 			Daten&uuml;bermittlung an die SCHUFA
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Die Gemmer-Solar UG &uuml;bermittelt im Rahmen von mit Ihnen eingegangenen
+			Die Gemmer-Solar GmbH  &uuml;bermittelt im Rahmen von mit Ihnen eingegangenen
 			Vertragsverh&auml;ltnissen erhobene personenbezogene Daten &uuml;ber die Beantragung, die
 			Durchf&uuml;hrung und Beendigung solcher Gesch&auml;ftsbeziehungen sowie Daten &uuml;ber nicht
 			vertragsgem&auml;&szlig;es Verhalten oder betr&uuml;gerisches Verhalten an die SCHUFA Holding
 			AG, Kormoranweg 5, 65201 Wiesbaden. Rechtsgrundlagen dieser &Uuml;bermittlungen sind Artikel 6
 			Absatz 1 Buchstabe b und Artikel 6 Absatz 1 Buchstabe f der Datenschutz-Grundverordnung
 			(DS-GVO). &Uuml;bermittlungen auf der Grundlage von Artikel 6 Absatz 1 Buchstabe f DS-GVO
-			d&uuml;rfen nur erfolgen, soweit dies zur Wahrung berechtigter Interessen der Gemmer-Solar UG
+			d&uuml;rfen nur erfolgen, soweit dies zur Wahrung berechtigter Interessen der Gemmer-Solar GmbH
 			oder Dritter erforderlich ist und nicht die Interessen oder Grundrechte und Grundfreiheiten
 			der betroffenen Person, die den Schutz personenbezogener Daten erfordern, &uuml;berwiegen. Der
 			Datenaustausch mit der SCHUFA dient auch der Erf&uuml;llung gesetzlicher Pflichten zur
@@ -261,7 +261,7 @@
 			Daten&uuml;bermittlung an sonstige Auskunfteien
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Im &Uuml;brigen nutzt die Gemmer-Solar UG noch folgende Auskunfteien, um bei Vorliegen eines
+			Im &Uuml;brigen nutzt die Gemmer-Solar GmbH  noch folgende Auskunfteien, um bei Vorliegen eines
 			berechtigten Interesses eine Bonit&auml;tsinformation einzuholen: Bisnode Deutschland GmbH,
 			Robert-Bosch-Stra&szlig;e 11, 64293 Darmstadt, Coface Central Europe Holding AG, Stubenring
 			24, A-1010 Wien, CRIF B&uuml;rgel GmbH, Radlkoferstra&szlig;e 2, 81373 M&uuml;nchen
@@ -280,7 +280,7 @@
 			ben&ouml;tigen sowie Werbe- und Adressenverlage f&uuml;r eigene Werbeaktionen.
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Ihre Daten werden in Kundendatenbanken der Gemmer-Solar UG verarbeitet. Diese
+			Ihre Daten werden in Kundendatenbanken der Gemmer-Solar GmbH  verarbeitet. Diese
 			Kundendatenbanken unterst&uuml;tzen die Anhebung der Datenqualit&auml;t der vorhandenen
 			Kundendaten (Dublettenbereinigung, Verzogen/Verstorben-Kennzeichen, Adresskorrektur), und
 			erm&ouml;glichen die Anreicherung mit Daten aus &ouml;ffentlichen Quellen. Diese Daten
@@ -294,7 +294,7 @@
 			relevanteste Information bereit zu stellen. Diese Verarbeitung von Kundeninteressen stellt
 			Profiling im Sinne von Art. 4 DS-GVO dar; eine automatisierte Entscheidungsfindung erfolgt
 			nicht. Das Speichern von Kundendaten erfolgt unternehmensbezogen und getrennt, wobei die
-			Gemmer-Solar UG&nbsp; f&uuml;r die einzelnen teilnehmenden Gesellschaften als Dienstleister
+			Gemmer-Solar GmbH &nbsp; f&uuml;r die einzelnen teilnehmenden Gesellschaften als Dienstleister
 			fungiert.
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
@@ -332,7 +332,7 @@
 			Wenn Sie uns &uuml;ber das Bewerberportal Ihre Bewerbung zukommen lassen, speichern wir Ihre
 			personenbezogenen Daten in einer sicheren Betriebsumgebung, um sie vor Verlust oder Missbrauch
 			zu sch&uuml;tzen. Ihre Bewerberdaten werden ausschlie&szlig;lich den am Bewerbungsprozess der
-			Gemmer-Solar UG&nbsp; beteiligten und autorisierten Personen zug&auml;nglich gemacht, z.B. um
+			Gemmer-Solar GmbH &nbsp; beteiligten und autorisierten Personen zug&auml;nglich gemacht, z.B. um
 			Ihnen gegebenenfalls auch alternative Stellen anbieten zu k&ouml;nnen. Nach Abschluss des
 			Bewerbungsverfahrens (d.h. nachdem Sie eine Zu- oder Absage von uns erhalten haben) speichern
 			wir Ihre personenbezogenen Daten f&uuml;r maximal 6 Monate.
@@ -358,7 +358,7 @@
 			10.1. Allgemeine Informationen zum Einsatz von Cookies
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Gemmer-Solar UG&nbsp;verwendet auf seiner Website sogenannte Cookies und Pixel (im Folgenden
+			Gemmer-Solar GmbH &nbsp;verwendet auf seiner Website sogenannte Cookies und Pixel (im Folgenden
 			allgemein &bdquo;Cookies&ldquo; genannt). Hierbei handelt es sich um kleinen Text- oder
 			Bilddateien, die Ihr Browser auf Ihrem Endger&auml;t (Computer, Tablet, Smartphone oder
 			&auml;hnliches) zur Speicherung bestimmter Informationen ablegt, wenn Sie unsere Website mit
@@ -380,7 +380,7 @@
 			sein.
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Eine Erl&auml;uterung &uuml;ber Umfang und Funktionsweise der von Gemmer-Solar UG auf seiner
+			Eine Erl&auml;uterung &uuml;ber Umfang und Funktionsweise der von Gemmer-Solar GmbH  auf seiner
 			Website genutzten Cookies ist im Folgenden aufgelistet:
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">a. Funktionale Cookies</p>
@@ -400,7 +400,7 @@
 			und am wenigstens Aufrufe haben, ob Fehlermeldungen auftreten und wie der Nutzer auf unserer
 			Website navigiert. Die gesammelten Daten sind zusammengefasst und darum anonym. Eine
 			Identifikation des Nutzers ist nicht gegeben. Wir verwenden diese Cookies
-			ausschlie&szlig;lich, um die Performance der Gemmer-Solar UG Website und dem damit verbundenen
+			ausschlie&szlig;lich, um die Performance der Gemmer-Solar GmbH  Website und dem damit verbundenen
 			Nutzererlebnis stetig zu verbessern. Sollten Sie mit dieser anonymisierten Erfassung Ihres
 			Nutzungsverhaltens nicht einverstanden sein, k&ouml;nnen Sie diese verhindern, indem Sie
 			Cookies in Ihrem Browser deaktivieren.
@@ -418,7 +418,7 @@
 			10.2. Konkret eingesetzte Cookies
 		</p>
 		<p class="mb-1 max-w-3xl pb-2 pl-12 pt-1 text-sm leading-6">
-			Die spezifischen Cookies, die auf jeder Gemmer-Solar UG Website verwendet werden, sind auf der
+			Die spezifischen Cookies, die auf jeder Gemmer-Solar GmbH  Website verwendet werden, sind auf der
 			jeweiligen Website beschrieben. Ein Link zur Beschreibung &bdquo;Website Daten-Tracking &amp;
 			Opt-Out&ldquo; ist im Footer jeder Website zu finden. Dort finden Sie auch die Links, um sich
 			von den Cookies abzumelden.
@@ -522,7 +522,7 @@
 			Sind Sie der Meinung, dass wir bei der Verarbeitung Ihrer Daten gegen deutsches oder
 			europ&auml;isches Datenschutzrecht versto&szlig;en, so bitten wir Sie, mit uns Kontakt
 			aufzunehmen, um Fragen aufkl&auml;ren zu k&ouml;nnen. Sie haben selbstverst&auml;ndlich auch
-			das Recht, sich an die f&uuml;r die Gemmer-Solar UG&nbsp; zust&auml;ndige
+			das Recht, sich an die f&uuml;r die Gemmer-Solar GmbH &nbsp; zust&auml;ndige
 			Aufsichtsbeh&ouml;rde, das rheinland pf&auml;lzisches Landesamt f&uuml;r Datenschutzaufsicht,
 			zu wenden.
 		</p>
