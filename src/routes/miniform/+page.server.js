@@ -24,7 +24,7 @@ export const actions = {
     await new Promise((resolve, reject) => {
       transporter.sendMail({
         from: email,
-        to: 'tom@actualize.de',
+        to: 'info@gemmer-solar.de',
         subject: 'Nachricht aus dem Kontaktformular',
         text: message,
       }, (error, info) => {

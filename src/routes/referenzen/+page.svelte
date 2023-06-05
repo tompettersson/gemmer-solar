@@ -33,7 +33,7 @@
 					src="/referenzen/frank-maxeiner-scheidt.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Herr Maxeiner</h3>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Maxeiner</h3>
 				<p class="text-base leading-7 text-gray-600">5,60 KwP</p>
 			</li>
 			<li>
@@ -42,7 +42,7 @@
 					src="/referenzen/limburg.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Herr Bauer</h3>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Bauer</h3>
 				<p class="text-base leading-7 text-gray-600">17,60 KwP</p>
 			</li>
 			<li>
@@ -51,7 +51,7 @@
 					src="/referenzen/machatsch.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Herr Machatsch</h3>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Machatsch</h3>
 				<p class="text-base leading-7 text-gray-600">5,60 KwP</p>
 			</li>
 			<li>
@@ -60,8 +60,26 @@
 					src="/referenzen/oliverschmitz.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Herr Schmitz</h3>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Schmitz</h3>
 				<p class="text-base leading-7 text-gray-600">10,0 KwP</p>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/wegmann.jpg"
+						alt="Wegmann"
+				/>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Wegmann</h3>
+				<p class="text-base leading-7 text-gray-600">14,76 KwP</p>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/rohmann.jpg"
+						alt="Rohmann"
+				/>
+				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900">Rohmann</h3>
+				<p class="text-base leading-7 text-gray-600">11,07 KwP</p>
 			</li>
 		</ul>
 	</div>

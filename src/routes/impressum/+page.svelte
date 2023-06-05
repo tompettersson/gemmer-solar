@@ -31,7 +31,7 @@
 			St.-Nr.: 30/660/28907<br /><br />
 
 			Mobil: 0151-56288994<br />
-			Tel: 06439-9090120<br />
+			Festnetz: 06439-9295983<br />
 			Email: <a href="mailto:info@gemmer-solar.de">info@gemmer-solar.de</a><br /><br />
 
 			Volksbank Rhein-Lahn-Limburg eG <br />
