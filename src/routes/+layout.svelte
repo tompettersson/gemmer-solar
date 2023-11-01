@@ -4,7 +4,7 @@
 	import Navbar from '../lib/Navbar.svelte';
     import Message from '../lib/Message.svelte';
 </script>
-<Message />
+
 <Navbar />
 <slot />
 <Footer />
