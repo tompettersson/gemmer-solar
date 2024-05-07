@@ -33,8 +33,8 @@
 					src="/referenzen/frank-maxeiner-scheidt.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900"></h3>
-				<p class="text-base leading-7 text-gray-600">5,60 KwP</p>
+
+
 			</li>
 			<li>
 				<img
@@ -42,8 +42,7 @@
 					src="/referenzen/limburg.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900"></h3>
-				<p class="text-base leading-7 text-gray-600">17,60 KwP</p>
+
 			</li>
 			<li>
 				<img
@@ -51,8 +50,8 @@
 					src="/referenzen/machatsch.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900"></h3>
-				<p class="text-base leading-7 text-gray-600">5,60 KwP</p>
+
+
 			</li>
 			<li>
 				<img
@@ -60,8 +59,8 @@
 					src="/referenzen/oliverschmitz.jpg"
 					alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900"></h3>
-				<p class="text-base leading-7 text-gray-600">10,0 KwP</p>
+
+
 			</li>
 
 
@@ -69,11 +68,94 @@
 				<img
 						class="aspect-[3/2] w-full rounded-2xl object-cover"
 						src="/referenzen/rohmann.jpg"
-						alt="Rohmann"
+						alt=""
 				/>
-				<h3 class="mt-6 text-lg font-semibold leading-8 text-gray-900"></h3>
-				<p class="text-base leading-7 text-gray-600">11,07 KwP</p>
 			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/rmsolar.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gs1.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm2.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm3.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm4.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm5.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm6.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm7.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm8.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm9.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm10.jpg"
+						alt=""
+				/>
+			</li>
+			<li>
+				<img
+						class="aspect-[3/2] w-full rounded-2xl object-cover"
+						src="/referenzen/gm11.jpg"
+						alt=""
+				/>
+			</li>
+
 		</ul>
 	</div>
 </div>
