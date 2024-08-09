@@ -49,7 +49,7 @@
 			<div class="hidden space-x-4 sm:ml-10 md:block">
 				<a
 					href="/#act-contact"
-					class="inline-block rounded-md border border-transparent bg-gemmer-400 px-10 py-1 text-xs font-bold uppercase text-white transition-colors hover:bg-gemmer-500 md:py-3"
+					class="inline-block rounded-md border border-transparent bg-gemmer-400 px-8 py-1 text-base font-bold uppercase text-white transition-colors hover:bg-gemmer-500 md:py-3"
 					>Kontakt</a
 				>
 			</div>
