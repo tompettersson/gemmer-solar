@@ -34,9 +34,6 @@
 			Festnetz: 06439-9295983<br />
 			Email: <a href="mailto:info@gemmer-solar.de">info@gemmer-solar.de</a><br /><br />
 
-			Volksbank Rhein-Lahn-Limburg eG <br />
-			IBAN: DE36570928000221212304<br />
-			BIC: GENODE51DIE<br /><br />
 		</p>
 	</div>
 </section>
