@@ -28,16 +28,16 @@
 				>
 					Nachhaltige Wärme von Gemmer
 				</h3>
-				<p class="max-w-3xl py-5 text-base leading-7" data-scroll data-scroll-speed="1.2">
+				<p class="max-w-3xl py-5 text-lg leading-7" data-scroll data-scroll-speed="1.2">
 					Unsere modernen Wärmepumpen nutzen die natürliche Energie der Umgebung - sei es aus der Luft, der Erde oder dem Grundwasser - um Ihr Zuhause effizient zu heizen oder zu kühlen.
 
-					<br /><br />Mit unserer Expertise bieten wir Ihnen maßgeschneiderte Lösungen für jeden Bedarf: Von der Luft-Wasser-Wärmepumpe bis hin zum Austausch Ihrer bestehenden Heizungsanlage. Egal ob Neubau oder Sanierung, ob Ein- oder Mehrfamilienhaus – wir finden die optimale Lösung für Ihre individuellen Anforderungen.
+					<br /><br />Mit unserer Expertise bieten wir Ihnen maßgeschneiderte Lösungen für jeden Bedarf: Ob Ein- oder Mehrfamilienhaus – wir finden die optimale Lösung für Ihre individuellen Anforderungen.
 
 					<br /><br />Investieren Sie mit uns in eine nachhaltige Zukunft! Profitieren Sie von deutlich reduzierten Heizkosten und einem ganzjährig angenehmen Raumklima. Lassen Sie uns gemeinsam den Weg zu einem umweltfreundlichen und energiesparenden Zuhause gehen.
 				</p>
 				<a
 					href="#act-contact"
-					class="bg-gemmer-400 hover:bg-gemmer-500 inline-block rounded-md border border-transparent px-10 py-1 text-xs font-bold uppercase text-white transition-colors md:py-3"
+					class="bg-gemmer-400 hover:bg-gemmer-500 inline-block rounded-md border border-transparent px-10 py-1 text-lg font-bold uppercase text-white transition-colors md:py-3"
 					>Kontakt</a
 				>
 			</div>
