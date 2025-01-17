@@ -1,19 +1,19 @@
 <!---- CARD SECTION ----->
-<section class="pb-20 bg-gray-50" data-scroll-section id="act-waermepumpe">
+<section class="bg-gray-50 pb-20" data-scroll-section id="act-waermepumpe">
 	<div
-		class="flex flex-wrap items-stretch justify-between flex-1 px-4 py-10 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
+		class="mx-auto flex max-w-screen-2xl flex-1 flex-wrap items-stretch justify-between px-4 py-10 sm:px-6 lg:px-8"
 		data-scroll
 		data-scroll-speed="1"
 	>
 		<div class="w-auto py-5 md:w-[48%]">
-			<div class="p-10 bg-white rounded-md" id="learnmore">
+			<div class="rounded-md bg-white p-10" id="learnmore">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-12 h-12 mb-4 text-gemmer-400"
+					class="mb-4 h-12 w-12 text-gemmer-400"
 				>
 					<path
 						stroke-linecap="round"
@@ -36,14 +36,14 @@
 		</div>
 
 		<div class="w-auto py-5 md:w-[48%]">
-			<div class="p-10 bg-white rounded-md" id="learnmore">
+			<div class="rounded-md bg-white p-10" id="learnmore">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-12 h-12 mb-4 text-gemmer-400"
+					class="mb-4 h-12 w-12 text-gemmer-400"
 				>
 					<path
 						stroke-linecap="round"
@@ -51,22 +51,21 @@
 						d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
 					/>
 				</svg>
-				<h3 class="pb-2 text-3xl font-bold text-zinc-900">Keine Vorabkosten & volle Garantie</h3>
+				<h3 class="pb-2 text-3xl font-bold text-zinc-900">12 Jahre Systemgarantie</h3>
 				<p class="py-3 text-lg leading-7">
-					Mit IBC HomeOne profitieren Sie von Anfang an: Keine Vorabkosten für die Komponenten und
-					12 Jahre Herstellergarantie auf das Gesamtsystem.
+					IBC HomeOne bietet 12 Jahre Garantie auf das Gesamtsystem - nicht nur auf einzelne
+					Komponenten. Das gibt's nur bei IBC HomeOne.
 
-					<br /><br />Über das IBC HomeOne Portal haben Sie jederzeit Zugriff auf alle Unterlagen
-					und den direkten Kontakt zum Hersteller. Wartung und Versicherung können optional ergänzt
-					werden.
+					<br /><br />Mit dem optionalen Wartungsvertrag und einer Allgefahrenversicherung sichern
+					Sie Ihre Anlage zusätzlich ab. Der passende Stromtarif optimiert Ihre Kosten.
 				</p>
 			</div>
 		</div>
 	</div>
 
 	<!---- BADGES ----->
-	<div class="flex justify-end gap-12 px-4 pt-8 pr-8 mx-auto max-w-screen-2xl sm:pr-12 lg:pr-16">
-		<img src="./img/engineeredingermany.png" alt="Engineered in Germany" class="w-auto h-16" />
-		<img src="./img/designaward.png" alt="Design Award" class="w-auto h-16" />
+	<div class="mx-auto flex max-w-screen-2xl justify-end gap-12 px-4 pr-8 pt-8 sm:pr-12 lg:pr-16">
+		<img src="./img/engineeredingermany.png" alt="Engineered in Germany" class="h-16 w-auto" />
+		<img src="./img/designaward.png" alt="Design Award" class="h-16 w-auto" />
 	</div>
 </section>
