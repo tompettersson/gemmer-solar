@@ -1,7 +1,7 @@
 <!---- HERO ----->
 <section>
 	<div
-		class="flex flex-col-reverse items-center justify-between flex-1 px-4 pt-0 pb-20 mx-auto max-w-screen-2xl sm:px-6 md:flex-row md:pt-2 lg:px-8"
+		class="mx-auto flex max-w-screen-2xl flex-1 flex-col-reverse items-center justify-between px-4 pb-20 pt-0 sm:px-6 md:flex-row md:pt-2 lg:px-8"
 	>
 		<!---- LEFT ----->
 		<div class="w-auto pl-7 md:w-1/2 md:pl-12" data-scroll-section>
@@ -12,13 +12,13 @@
 			>
 				IBC HomeOne. Das Rundum-Sorglos-Solarpaket von Gemmer.
 			</h2>
-			<p class="max-w-sm text-white pb-7" data-scroll data-scroll-speed="1.4">
-				Als zertifizierter IBC Partner installieren wir Ihr komplettes Solarsystem - mit 12 Jahren
-				Herstellergarantie und ohne Vorabkosten.
+			<p class="max-w-sm pb-7 text-white" data-scroll data-scroll-speed="1.4">
+				Als zertifizierter IBC SOLAR AG Partner installieren wir Ihr komplettes Solarsystem - mit 12
+				Jahren Herstellergarantie und ohne Vorabkosten.
 			</p>
 			<a
 				href="#act-contact"
-				class="inline-flex items-center py-1 pl-4 pr-6 text-lg font-bold text-white transition-colors border border-transparent rounded-md bg-gemmer-400 hover:bg-gemmer-500 md:py-3"
+				class="inline-flex items-center rounded-md border border-transparent bg-gemmer-400 py-1 pl-4 pr-6 text-lg font-bold text-white transition-colors hover:bg-gemmer-500 md:py-3"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-8 h-8 mr-3"
+					class="mr-3 h-8 w-8"
 				>
 					<path
 						stroke-linecap="round"

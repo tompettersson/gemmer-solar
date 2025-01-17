@@ -29,8 +29,8 @@
 					HomeOne Anlage. Alle Komponenten werden von uns perfekt aufeinander abgestimmt und
 					professionell in Betrieb genommen.
 
-					<br /><br />Nach der Installation haben Sie einen direkten Draht zu IBC für Service und
-					Support. In der HomeOne App behalten Sie alle Energieflüsse im Blick.
+					<br /><br />Nach der Installation haben Sie einen direkten Draht zur IBC SOLAR AG für
+					Service und Support. In der HomeOne App behalten Sie alle Energieflüsse im Blick.
 				</p>
 			</div>
 		</div>
@@ -53,7 +53,7 @@
 				</svg>
 				<h3 class="pb-2 text-3xl font-bold text-zinc-900">12 Jahre Systemgarantie</h3>
 				<p class="py-3 text-lg leading-7">
-					IBC HomeOne bietet 12 Jahre Garantie auf das Gesamtsystem - nicht nur auf einzelne
+					Die IBC SOLAR AG bietet 12 Jahre Garantie auf das Gesamtsystem - nicht nur auf einzelne
 					Komponenten. Das gibt's nur bei IBC HomeOne.
 
 					<br /><br />Mit dem optionalen Wartungsvertrag und einer Allgefahrenversicherung sichern

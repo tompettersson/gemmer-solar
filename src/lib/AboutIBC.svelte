@@ -2,10 +2,10 @@
 <section class="bg-gray-50" id="act-about" data-scroll-section>
 	<!---- ABOUT  ----->
 	<div
-		class="flex-col-reverse items-center justify-between flex-1 px-6 pb-2 mx-auto bg-whiteflex max-w-screen-2xl sm:px-12 md:flex-row lg:px-8"
+		class="bg-whiteflex mx-auto max-w-screen-2xl flex-1 flex-col-reverse items-center justify-between px-6 pb-2 sm:px-12 md:flex-row lg:px-8"
 	>
 		<div
-			class="flex flex-wrap items-stretch justify-between flex-1 px-4 py-10 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
+			class="mx-auto flex max-w-screen-2xl flex-1 flex-wrap items-stretch justify-between px-4 py-10 sm:px-6 lg:px-8"
 			data-scroll
 			data-scroll-speed="1"
 		>
@@ -21,14 +21,14 @@
 			</div>
 			<div class="w-auto py-8 pr-4 sm:w-1/2 lg:w-2/3 lg:pl-16 lg:pr-60">
 				<h3
-					class="block text-4xl font-extrabold mt-15 text-zinc-900"
+					class="mt-15 block text-4xl font-extrabold text-zinc-900"
 					data-scroll
 					data-scroll-speed="1.1"
 				>
 					Starke Partner für Ihre Solaranlage
 				</h3>
 				<p class="max-w-3xl py-5 text-lg leading-7" data-scroll data-scroll-speed="1.2">
-					Als zertifizierter Installationspartner von IBC SOLAR bringen wir Ihnen modernste
+					Als zertifizierter Installationspartner von IBC SOLAR AG bringen wir Ihnen modernste
 					Solartechnik aufs Dach. Das IBC HomeOne System kombiniert hochwertige Module,
 					Wechselrichter, Speicher und Wallbox zu einem perfekt abgestimmten Gesamtpaket.
 
@@ -42,13 +42,13 @@
 				<div class="flex gap-4">
 					<a
 						href="#act-contact"
-						class="inline-block px-10 py-1 text-lg font-bold text-white uppercase transition-colors border border-transparent rounded-md bg-gemmer-400 hover:bg-gemmer-500 md:py-3"
+						class="inline-block rounded-md border border-transparent bg-gemmer-400 px-10 py-1 text-lg font-bold uppercase text-white transition-colors hover:bg-gemmer-500 md:py-3"
 						>Kontakt</a
 					>
 					<a
 						href="/download/IBC_HomeOne_Onepager_Vorteile.pdf"
 						target="_blank"
-						class="inline-flex items-center gap-2 px-6 py-1 text-lg font-bold uppercase transition-colors border-2 rounded-md border-gemmer-400 text-gemmer-400 hover:bg-gemmer-400 hover:text-white md:py-3"
+						class="inline-flex items-center gap-2 rounded-md border-2 border-gemmer-400 px-6 py-1 text-lg font-bold uppercase text-gemmer-400 transition-colors hover:bg-gemmer-400 hover:text-white md:py-3"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
 							viewBox="0 0 24 24"
 							stroke-width="1.5"
 							stroke="currentColor"
-							class="w-6 h-6"
+							class="h-6 w-6"
 						>
 							<path
 								stroke-linecap="round"
