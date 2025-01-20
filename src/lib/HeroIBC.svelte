@@ -14,7 +14,7 @@
 			</h2>
 			<p class="max-w-sm pb-7 text-white" data-scroll data-scroll-speed="1.4">
 				Als zertifizierter IBC SOLAR AG Partner installieren wir Ihr komplettes Solarsystem - mit 12
-				Jahren Herstellergarantie und ohne Vorabkosten.
+				Jahren Herstellergarantie.
 			</p>
 			<a
 				href="#act-contact"
