@@ -8,38 +8,37 @@
 					<img class="relative h-32 w-60" src="./img/gemmerlogo.svg" alt="" />
 				</a>
 				<div class="hidden space-x-8 pl-10 text-center md:ml-20 lg:flex lg:justify-end">
-				
-					<a
-						href="	/#act-about"
-						class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
-					>
-						Über uns
-					</a>
-
 					<a
 						href="/#act-solar"
-						class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+						class="leading-0 space-x-6 py-2 text-base font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
 					>
 						Solarenergie
 					</a>
 
 					<a
+						href="/ibc-home-one"
+						class="leading-0 space-x-6 py-2 text-base font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+					>
+						IBC HomeOne
+					</a>
+
+					<a
 						href="/waermepumpen"
-						class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+						class="leading-0 space-x-6 py-2 text-base font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
 					>
 						Wärmepumpen
 					</a>
 
 					<a
 						href="/referenzen"
-						class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+						class="leading-0 space-x-6 py-2 text-base font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
 					>
 						Referenzen
 					</a>
 
 					<a
 						href="/download"
-						class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+						class="leading-0 space-x-6 py-2 text-base font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
 					>
 						Download
 					</a>
@@ -58,8 +57,6 @@
 
 		<!---- NAV 2 Mobile ----->
 		<div class="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
-		
-
 			<a
 				href="/#act-about"
 				class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"

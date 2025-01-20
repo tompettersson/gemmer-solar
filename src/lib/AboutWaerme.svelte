@@ -2,10 +2,10 @@
 <section class="bg-gray-50" id="act-about" data-scroll-section>
 	<!---- ABOUT  ----->
 	<div
-		class="bg-whiteflex mx-auto max-w-screen-2xl flex-1 flex-col-reverse items-center justify-between px-6 pb-2 sm:px-12 md:flex-row lg:px-8"
+		class="flex-col-reverse items-center justify-between flex-1 px-6 pb-2 mx-auto bg-whiteflex max-w-screen-2xl sm:px-12 md:flex-row lg:px-8"
 	>
 		<div
-			class="mx-auto flex max-w-screen-2xl flex-1 flex-wrap items-stretch justify-between px-4 py-10 sm:px-6 lg:px-8"
+			class="flex flex-wrap items-stretch justify-between flex-1 px-4 py-10 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
 			data-scroll
 			data-scroll-speed="1"
 		>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="w-auto py-8 pr-4 sm:w-1/2 lg:w-2/3 lg:pl-16 lg:pr-60">
 				<h3
-					class="mt-15 block text-4xl font-extrabold text-zinc-900"
+					class="block text-4xl font-extrabold mt-15 text-zinc-900"
 					data-scroll
 					data-scroll-speed="1.1"
 				>
@@ -37,7 +37,7 @@
 				</p>
 				<a
 					href="#act-contact"
-					class="bg-gemmer-400 hover:bg-gemmer-500 inline-block rounded-md border border-transparent px-10 py-1 text-lg font-bold uppercase text-white transition-colors md:py-3"
+					class="inline-block px-10 py-1 text-lg font-bold text-white uppercase transition-colors border border-transparent rounded-md bg-gemmer-400 hover:bg-gemmer-500 md:py-3"
 					>Kontakt</a
 				>
 			</div>
