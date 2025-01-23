@@ -37,7 +37,7 @@
 					ohne Vorfinanzierung.
 
 					<br /><br />Wir kümmern uns um die fachgerechte Installation, IBC übernimmt 12 Jahre
-					Produktgarantie. Das nennen wir Rundum-Sorglos!
+					Systemgarantie. Das nennen wir Rundum-Sorglos!
 				</p>
 				<div class="flex gap-4">
 					<a
