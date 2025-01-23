@@ -11,9 +11,9 @@
 		>
 			<div class="w-auto py-5 pl-0 sm:w-1/2 lg:w-1/3">
 				<img
-					src="/img/homeone.jpg"
+					src="/img/homeone2.jpg"
 					class="relative z-10 rounded-md mix-blend-multiply"
-					alt="Wärmepumpe Installation von Gemmer"
+					alt="IBC HomeOne Installation von Gemmer"
 					data-scroll
 					data-scroll-speed="2"
 					data-scroll-direction="horizontal"
