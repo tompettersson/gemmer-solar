@@ -72,6 +72,13 @@
 			</a>
 
 			<a
+				href="/ibc-home-one"
+				class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
+			>
+				IBC HomeOne
+			</a>
+
+			<a
 				href="/waermepumpen"
 				class="leading-0 space-x-6 py-2 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:text-gemmer-400 md:leading-7"
 			>
