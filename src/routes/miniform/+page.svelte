@@ -1,11 +1,13 @@
 <script>
 	import { onMount } from 'svelte';
 
+	export let form;
+
 	onMount(() => {
-		// Google Ads Conversion Tracking
-		if (typeof gtag !== 'undefined') {
+		// Google Ads Conversion Tracking - nur bei erfolgreichem Formular triggern
+		if (typeof gtag !== 'undefined' && (!form || form.success !== false)) {
 			gtag('event', 'conversion', {
-				'send_to': 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+				send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
 			});
 		}
 	});
@@ -13,10 +15,12 @@
 
 <svelte:head>
 	<!-- Event snippet for Kauf conversion page -->
+	<!-- Event snippet for Kauf conversion page -->
 	<script>
+		// Wird auf Serverseite ausgeführt, daher ohne Bedingung
 		if (typeof gtag !== 'undefined') {
 			gtag('event', 'conversion', {
-				'send_to': 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+				send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
 			});
 		}
 	</script>
@@ -47,6 +51,12 @@
 			<p class="mt-4 text-center text-sm font-semibold text-stone-400">
 				Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.
 			</p>
+
+			{#if form && form.error}
+				<p class="mt-4 text-center text-sm font-semibold text-yellow-400">
+					Hinweis: {form.error}
+				</p>
+			{/if}
 		</article>
 	</div>
 </main>
