@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<script
+			id="Cookiebot"
+			src="https://consent.cookiebot.com/uc.js"
+			data-cbid="d6052bcc-7286-436c-bdc7-010463d4c1ba"
+			data-blockingmode="auto"
+			type="text/javascript"
+		></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16808237436"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'AW-16808237436');
+		</script>
+		%sveltekit.head%
+	</head>
 
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-	<meta name="viewport" content="width=device-width" />
-	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d6052bcc-7286-436c-bdc7-010463d4c1ba" data-blockingmode="auto" type="text/javascript"></script>
-	%sveltekit.head%
-</head>
-
-<body data-sveltekit-preload-data="hover" class="bg-zinc-900">
-	<div style="display: contents">%sveltekit.body%</div>
-</body>
-
+	<body data-sveltekit-preload-data="hover" class="bg-zinc-900">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
 </html>

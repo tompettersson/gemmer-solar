@@ -1,5 +1,28 @@
+<script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		// Google Ads Conversion Tracking
+		if (typeof gtag !== 'undefined') {
+			gtag('event', 'conversion', {
+				'send_to': 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+			});
+		}
+	});
+</script>
+
+<svelte:head>
+	<!-- Event snippet for Kauf conversion page -->
+	<script>
+		if (typeof gtag !== 'undefined') {
+			gtag('event', 'conversion', {
+				'send_to': 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+			});
+		}
+	</script>
+</svelte:head>
+
 <main class="mb-24 w-full bg-zinc-800 px-4 lg:px-0">
-	<!-- <HeadVisual {category} /> -->
 	<div class="mx-auto flex flex-col md:flex-row">
 		<article class="w-full px-0 pb-48 md:px-0 md:pr-32">
 			<h2
