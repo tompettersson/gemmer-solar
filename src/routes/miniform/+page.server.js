@@ -1,15 +1,22 @@
-import { PRIVATE_EMAIL_PW } from '$env/static/private';
+import {
+	PRIVATE_EMAIL_PW,
+	SMTP_HOST,
+	SMTP_PORT,
+	SMTP_USER,
+	SMTP_FROM_EMAIL,
+	SMTP_TO_EMAIL
+} from '$env/static/private';
 import nodemailer from 'nodemailer';
 
 // Fast Mail Transporter erstellen
 const transporter = nodemailer.createTransport({
 	service: 'Fastmail',
-	host: 'smtp.fastmail.com',
+	host: SMTP_HOST,
 	secureConnection: true,
-	port: 465,
+	port: parseInt(SMTP_PORT),
 	secure: true,
 	auth: {
-		user: 'tom@actualize.de',
+		user: SMTP_USER,
 		pass: PRIVATE_EMAIL_PW
 	},
 	// Debug-Optionen für mehr Informationen
@@ -62,8 +69,8 @@ export const actions = {
 			try {
 				// E-Mail-Konfiguration
 				const mailOptions = {
-					from: '"Gemmer Solar Website Formular" <tom@actualize.de>',
-					to: 'info@gemmer-solar.de',
+					from: `"Gemmer Solar Website Formular" <${SMTP_FROM_EMAIL}>`,
+					to: SMTP_TO_EMAIL,
 					subject: 'TEST - Nachricht aus dem Kontaktformular - Gemmer-Solar',
 					text: message,
 					replyTo: email
