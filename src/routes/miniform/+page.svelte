@@ -4,25 +4,34 @@
 	export let form;
 
 	onMount(() => {
-		// Google Ads Conversion Tracking - nur bei erfolgreichem Formular triggern
-		if (typeof gtag !== 'undefined' && (!form || form.success !== false)) {
-			gtag('event', 'conversion', {
-				send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
-			});
-		}
+		// Wir warten kurz, um sicherzustellen, dass die Seite vollständig geladen ist
+		setTimeout(() => {
+			// Google Ads Conversion Tracking - nur bei erfolgreichem Formular triggern
+			if (typeof gtag !== 'undefined' && (!form || form.success !== false)) {
+				console.log('Google Ads Conversion tracking triggered from onMount');
+				gtag('event', 'conversion', {
+					send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+				});
+			}
+		}, 300);
 	});
 </script>
 
 <svelte:head>
-	<!-- Event snippet for Kauf conversion page -->
-	<!-- Event snippet for Kauf conversion page -->
+	<!-- Event snippet for Google Ads Conversion Tracking -->
+	<!-- Event snippet for Google Ads Conversion Tracking -->
+	<!-- Event snippet for Google Ads Conversion Tracking -->
+	<!-- Event snippet for Google Ads Conversion Tracking -->
 	<script>
-		// Wird auf Serverseite ausgeführt, daher ohne Bedingung
-		if (typeof gtag !== 'undefined') {
-			gtag('event', 'conversion', {
-				send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
-			});
-		}
+		// Kurzversion mit minimaler Verzögerung für schnelleres Laden
+		document.addEventListener('DOMContentLoaded', function () {
+			if (typeof gtag !== 'undefined') {
+				console.log('Google Ads Conversion tracking triggered from head script');
+				gtag('event', 'conversion', {
+					send_to: 'AW-16808237436/ftWFCPTk1_IZEPyy5c4-'
+				});
+			}
+		});
 	</script>
 </svelte:head>
 
@@ -52,7 +61,11 @@
 				Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.
 			</p>
 
-			{#if form && form.error}
+			{#if form && form.warning}
+				<p class="mt-4 text-center text-sm font-semibold text-yellow-400">
+					{form.warning}
+				</p>
+			{:else if form && form.error}
 				<p class="mt-4 text-center text-sm font-semibold text-yellow-400">
 					Hinweis: {form.error}
 				</p>

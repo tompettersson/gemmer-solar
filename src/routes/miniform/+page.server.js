@@ -1,16 +1,45 @@
 import { PRIVATE_EMAIL_PW } from '$env/static/private';
 import nodemailer from 'nodemailer';
+
+// Fast Mail Transporter erstellen
 const transporter = nodemailer.createTransport({
-	service: 'Actualize',
-	host: 's1.actualizeserver.de',
+	service: 'Fastmail',
+	host: 'smtp.fastmail.com',
 	secureConnection: true,
 	port: 465,
 	secure: true,
 	auth: {
-		user: 'thomas.pettersson@actualize.de',
+		user: 'tom@actualize.de',
 		pass: PRIVATE_EMAIL_PW
+	},
+	// Debug-Optionen für mehr Informationen
+	debug: true,
+	logger: true
+});
+
+// Test der SMTP-Verbindung beim Server-Start
+transporter.verify(function (error, success) {
+	if (error) {
+		console.error('SMTP-Verbindungsfehler:', error);
+	} else {
+		console.log('SMTP-Server ist bereit für Nachrichten');
 	}
 });
+
+/**
+ * Sendet eine E-Mail ohne auf Antwort zu warten
+ * @param {Object} mailOptions - Die E-Mail-Optionen
+ */
+function sendEmailAsync(mailOptions) {
+	// E-Mail in einem nicht-blockierenden Kontext senden
+	transporter.sendMail(mailOptions, (error, info) => {
+		if (error) {
+			console.error('Fehler beim asynchronen E-Mail-Versand:', error);
+		} else {
+			console.log('E-Mail async gesendet:', info.response);
+		}
+	});
+}
 
 export const actions = {
 	default: async ({ request }) => {
@@ -31,32 +60,50 @@ export const actions = {
 				text;
 
 			try {
-				await new Promise((resolve, reject) => {
-					transporter.sendMail(
-						{
-							from: email,
-							to: 'info@gemmer-solar.de',
-							subject: 'Nachricht aus dem Kontaktformular',
-							text: message
-						},
-						(error, info) => {
-							if (error) {
-								console.log(error);
-								reject(error);
-							} else {
-								console.log('Email sent: ' + info.response);
-								resolve(info);
-							}
+				// E-Mail-Konfiguration
+				const mailOptions = {
+					from: '"Gemmer Solar Website Formular" <tom@actualize.de>',
+					to: 'info@gemmer-solar.de',
+					subject: 'TEST - Nachricht aus dem Kontaktformular - Gemmer-Solar',
+					text: message,
+					replyTo: email
+				};
+
+				console.log(
+					'Versuche E-Mail zu senden mit folgenden Optionen:',
+					JSON.stringify(mailOptions, null, 2)
+				);
+
+				// E-Mail senden mit Timeout
+				const emailPromise = new Promise((resolve, reject) => {
+					transporter.sendMail(mailOptions, (error, info) => {
+						if (error) {
+							console.error('E-Mail-Fehler:', error);
+							reject(error);
+						} else {
+							console.log('E-Mail erfolgreich gesendet:', info.response);
+							resolve(info);
 						}
-					);
+					});
 				});
+
+				// Timeout nach 10 Sekunden
+				const timeoutPromise = new Promise((_, reject) => {
+					setTimeout(() => reject(new Error('E-Mail-Timeout nach 10 Sekunden')), 10000);
+				});
+
+				// Race zwischen E-Mail-Versand und Timeout
+				await Promise.race([emailPromise, timeoutPromise]).catch((error) => {
+					console.warn('E-Mail konnte nicht rechtzeitig gesendet werden:', error.message);
+				});
+
+				// Erfolg zurückgeben, auch wenn E-Mail-Versand fehlschlägt
 				return { success: true };
 			} catch (emailError) {
-				console.error('Fehler beim Senden der E-Mail:', emailError);
-				// Wir geben trotzdem einen Erfolg zurück, damit die Bestätigungsseite angezeigt wird
+				console.error('Fehler beim E-Mail-Versand:', emailError);
 				return {
-					success: false,
-					error: 'E-Mail konnte nicht gesendet werden, aber Ihre Anfrage wurde gespeichert.'
+					success: true,
+					warning: 'Nachricht empfangen, aber E-Mail konnte nicht sofort verarbeitet werden'
 				};
 			}
 		} catch (formError) {
