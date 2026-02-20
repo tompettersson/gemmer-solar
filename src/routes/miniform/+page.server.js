@@ -28,20 +28,6 @@ transporter.verify(function (error, success) {
 	}
 });
 
-/**
- * Sendet eine E-Mail ohne auf Antwort zu warten
- * @param {Object} mailOptions - Die E-Mail-Optionen
- */
-function sendEmailAsync(mailOptions) {
-	// E-Mail in einem nicht-blockierenden Kontext senden
-	transporter.sendMail(mailOptions, (error, info) => {
-		if (error) {
-			console.error('Fehler beim asynchronen E-Mail-Versand:', error);
-		} else {
-			console.log('E-Mail async gesendet:', info.response);
-		}
-	});
-}
 
 export const actions = {
 	default: async ({ request }) => {
@@ -116,17 +102,12 @@ export const actions = {
 				// E-Mail-Konfiguration
 				const mailOptions = {
 					from: `"Gemmer Solar Kontaktformular" <${SMTP_FROM_EMAIL}>`,
-					to: 'tom@actualize.de', // TODO: nach Production-Test zurück auf SMTP_TO_EMAIL
+					to: SMTP_TO_EMAIL,
 					subject: 'Neue Kontaktanfrage über gemmer-solar.de',
 					text: message,
 					html: htmlMessage,
 					replyTo: email
 				};
-
-				console.log(
-					'Versuche E-Mail zu senden mit folgenden Optionen:',
-					JSON.stringify(mailOptions, null, 2)
-				);
 
 				// E-Mail senden mit Timeout
 				const emailPromise = new Promise((resolve, reject) => {
