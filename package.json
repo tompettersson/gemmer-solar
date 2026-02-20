@@ -25,6 +25,9 @@
 		"vite": "^4.3.0"
 	},
 	"type": "module",
+	"engines": {
+		"node": "22.x"
+	},
 	"dependencies": {
 		"nodemailer": "^6.9.1",
 		"postmark": "^3.0.18",
