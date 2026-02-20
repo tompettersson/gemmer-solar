@@ -8,20 +8,15 @@ import {
 } from '$env/static/private';
 import nodemailer from 'nodemailer';
 
-// Fast Mail Transporter erstellen
+// SMTP Transporter erstellen
 const transporter = nodemailer.createTransport({
-	service: 'Fastmail',
 	host: SMTP_HOST,
-	secureConnection: true,
 	port: parseInt(SMTP_PORT),
 	secure: true,
 	auth: {
 		user: SMTP_USER,
 		pass: PRIVATE_EMAIL_PW
-	},
-	// Debug-Optionen für mehr Informationen
-	debug: true,
-	logger: true
+	}
 });
 
 // Test der SMTP-Verbindung beim Server-Start
@@ -66,13 +61,65 @@ export const actions = {
 				'\n\nNachricht:\n\n' +
 				text;
 
+			const htmlMessage = `
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="margin:0; padding:0; background-color:#f4f4f5; font-family:'Helvetica Neue', Arial, sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f5; padding:32px 16px;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border-radius:8px; overflow:hidden;">
+        <!-- Header -->
+        <tr>
+          <td style="background-color:#27272a; padding:24px 32px; text-align:center;">
+            <span style="color:#faba40; font-size:20px; font-weight:bold;">Gemmer Solar</span>
+            <span style="color:#a1a1aa; font-size:20px; font-weight:300;"> | Kontaktformular</span>
+          </td>
+        </tr>
+        <!-- Body -->
+        <tr>
+          <td style="padding:32px;">
+            <p style="margin:0 0 24px; color:#52525b; font-size:14px;">Neue Nachricht über das Kontaktformular auf gemmer-solar.de:</p>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:24px;">
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f4f5; border-bottom:1px solid #e4e4e7; width:140px; color:#71717a; font-size:13px; font-weight:600;">Name</td>
+                <td style="padding:12px 16px; background-color:#f4f4f5; border-bottom:1px solid #e4e4e7; color:#27272a; font-size:14px;">${name || '–'}</td>
+              </tr>
+              <tr>
+                <td style="padding:12px 16px; border-bottom:1px solid #e4e4e7; width:140px; color:#71717a; font-size:13px; font-weight:600;">Telefon</td>
+                <td style="padding:12px 16px; border-bottom:1px solid #e4e4e7; color:#27272a; font-size:14px;">${number || '–'}</td>
+              </tr>
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f4f5; border-bottom:1px solid #e4e4e7; width:140px; color:#71717a; font-size:13px; font-weight:600;">E-Mail</td>
+                <td style="padding:12px 16px; background-color:#f4f4f5; border-bottom:1px solid #e4e4e7; color:#27272a; font-size:14px;"><a href="mailto:${email}" style="color:#faba40;">${email || '–'}</a></td>
+              </tr>
+            </table>
+            <div style="background-color:#fafafa; border-left:3px solid #faba40; padding:16px 20px; border-radius:0 4px 4px 0;">
+              <p style="margin:0 0 4px; color:#71717a; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;">Nachricht</p>
+              <p style="margin:0; color:#27272a; font-size:14px; line-height:1.6; white-space:pre-wrap;">${text || '–'}</p>
+            </div>
+          </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+          <td style="background-color:#fafafa; padding:16px 32px; border-top:1px solid #e4e4e7; text-align:center;">
+            <p style="margin:0; color:#a1a1aa; font-size:11px;">Diese Nachricht wurde automatisch über das Kontaktformular auf gemmer-solar.de versendet.</p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+
 			try {
 				// E-Mail-Konfiguration
 				const mailOptions = {
-					from: `"Gemmer Solar Website Formular" <${SMTP_FROM_EMAIL}>`,
-					to: SMTP_TO_EMAIL,
-					subject: 'TEST - Nachricht aus dem Kontaktformular - Gemmer-Solar',
+					from: `"Gemmer Solar Kontaktformular" <${SMTP_FROM_EMAIL}>`,
+					to: 'tom@actualize.de', // TODO: nach Production-Test zurück auf SMTP_TO_EMAIL
+					subject: 'Neue Kontaktanfrage über gemmer-solar.de',
 					text: message,
+					html: htmlMessage,
 					replyTo: email
 				};
 
